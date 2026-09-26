@@ -1207,12 +1207,24 @@
         // Certificate Search Function
         function searchCertificate() {
             const code = document.getElementById('certificateSearch').value.trim();
-            if (code === '200088' || code === '200087' || code === '200253' || code === '2027') {
+            if (code === '200088' || code === '20027' || code === '20026' || code === '200087' || code === '200253' || code === '2027') {
                 document.getElementById('certificateModal').classList.remove('hidden');
                 document.body.style.overflow = 'hidden';
                 switch(code) {
                     case '200087':
                         document.getElementById('certificateFront').src = 'https://i.imgur.com/KuutD6E.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '20026':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/hZJ0yN9.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '20027':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/X4t69zi.jpeg';
                         document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
                         document.getElementById('certificateCode').textContent = `Código: ${code}`;
                         document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;

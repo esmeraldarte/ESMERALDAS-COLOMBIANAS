@@ -1207,12 +1207,72 @@
         // Certificate Search Function
         function searchCertificate() {
             const code = document.getElementById('certificateSearch').value.trim();
-            if (code === '200088' || code === '200010' || code === '200009' || code === '200007' || code === '200006' || code === '200005' || code === '200004' || code === '200003' || code === '200002' || code === '200001' || code === '200211' || code === '0028' || code === '0027' || code === '200118' || code === '200224' || code === '200021' || code === '200024' || code === '200170' || code === '200008' || code === '200044' || code === '20027' || code === '20026' || code === '200087' || code === '200253' || code === '2027') {
+            if (code === '200088' || code === '200020' || code === '200019' || code === '200018' || code === '200017' || code === '200016' || code === '200015' || code === '200014' || code === '200013' || code === '200012' || code === '200011' || code === '200010' || code === '200009' || code === '200007' || code === '200006' || code === '200005' || code === '200004' || code === '200003' || code === '200002' || code === '200001' || code === '200211' || code === '0028' || code === '0027' || code === '200118' || code === '200224' || code === '200021' || code === '200024' || code === '200170' || code === '200008' || code === '200044' || code === '20027' || code === '20026' || code === '200087' || code === '200253' || code === '2027') {
                 document.getElementById('certificateModal').classList.remove('hidden');
                 document.body.style.overflow = 'hidden';
                 switch(code) {
                     case '200087':
                         document.getElementById('certificateFront').src = 'https://i.imgur.com/KuutD6E.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200011':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/h9c8D0U.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200012':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/J38D1cA.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break
+                    case '200013':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/vx96wfc.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200014':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/VO0ouar.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200015':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/Sw9jsQs.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200016':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/8Fs1qk6.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200017':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/MFBndOQ.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200018':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/SuwyWU4.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200019':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/xSSQzHo.png';
+                        document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
+                        document.getElementById('certificateCode').textContent = `Código: ${code}`;
+                        document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
+                        break;
+                    case '200020':
+                        document.getElementById('certificateFront').src = 'https://i.imgur.com/VeRVBLk.png';
                         document.getElementById('certificateBack').src = 'https://i.imgur.com/UBt84nu.png';
                         document.getElementById('certificateCode').textContent = `Código: ${code}`;
                         document.getElementById('certificateCodeBack').textContent = `Código: ${code}`;
